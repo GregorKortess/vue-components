@@ -1,8 +1,8 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+  <div class="z-10" id="app">
+    <div class="z-10" id="nav">
+      <router-link  to="/pricing">Pricing</router-link> |
+      <router-link  to="/about">About</router-link>
     </div>
     <router-view/>
   </div>

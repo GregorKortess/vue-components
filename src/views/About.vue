@@ -1,8 +1,7 @@
 <template>
     <div class="about flex flex-col items-center">
 
-        <div class="absolute inset-0 z-0" @click="modal = false"></div>
-
+<!--        <div class="absolute inset-0 z-0" @click="modal = false"></div>-->
         <input  type="text" class="bg-gray-300 px-4 py-2 z-10" autocomplete="off" v-model="state"  @focus="modal = true">
 
         <div v-if="filteredStates && modal" class="z-10">
