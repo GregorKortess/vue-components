@@ -1,8 +1,9 @@
 <template>
   <div class="z-10" id="app">
     <div class="z-10" id="nav">
-      <router-link  to="/pricing">Pricing</router-link> |
-      <router-link  to="/about">About</router-link>
+      <router-link  to="/">Pricing</router-link> |
+      <router-link  to="/states">States</router-link> |
+      <router-link  to="/forms">Forms</router-link>
     </div>
     <router-view/>
   </div>
